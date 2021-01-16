@@ -16,4 +16,7 @@ public class HomePage {
 
     @FindBy(xpath ="//a[@href='/pages/practice']")
     public WebElement practiceBtn;
+    
+    @FindBy(xpath = "//a[@class='navbar-link fedora-navbar-link']")
+    public WebElement loginBtn;
 }
